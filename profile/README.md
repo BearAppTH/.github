@@ -1,42 +1,65 @@
-<div align="center"> 
+<div align="center">
+
 <picture>
-    <source
-      width="512px"
-      media="(prefers-color-scheme: dark)"
-      srcset="https://raw.githubusercontent.com/BearAppTH/.github/refs/heads/main/profile/assets/bearappth-wordmark/bearappth_wordmark_dark.svg"
-    />
-    <img 
-      width="512px"
-      src="https://raw.githubusercontent.com/BearAppTH/.github/refs/heads/main/profile/assets/bearappth-wordmark/bearappth_wordmark_light.svg"
-     alt="BearAppTH"/>
+  <source
+    width="420px"
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/BearAppTH/.github/refs/heads/main/profile/assets/bearappth-wordmark/bearappth_wordmark_dark.svg"
+  />
+  <img
+    width="420px"
+    src="https://raw.githubusercontent.com/BearAppTH/.github/refs/heads/main/profile/assets/bearappth-wordmark/bearappth_wordmark_light.svg"
+    alt="BearAppTH"
+  />
 </picture>
-</div> 
+
+<br/>
+
+### นักพัฒนาไทยเดี่ยว &nbsp;·&nbsp; Solo Thai Developer 🇹🇭
+
+<br/>
+
+<a href="https://bearappth.github.io" title="bearappth.github.io">
+  <img
+    src="https://raw.githubusercontent.com/BearAppTH/.github/refs/heads/main/profile/assets/download-bearappth.svg"
+    alt="bearappth.github.io"
+    width="240"
+  />
+</a>
+
+</div>
 
 &nbsp;
-<p align="center">
-  <a href="https://bearappth.software" title="Download BearAppTH">
-    <img src="https://raw.githubusercontent.com/BearAppTH/.github/refs/heads/main/profile/assets/download-bearappth.svg" alt="Download BearAppTH" width="240"/>
-  </a>
-</p>
+
+## 🐻 เกี่ยวกับ BearAppTH
+
+**BearAppTH** คือเครื่องมือปรับแต่ง Android app พัฒนาและดูแลโดยนักพัฒนาไทยเพียงคนเดียว
+
+ปรับเปลี่ยนแอปที่คุณใช้งานทุกวัน — เพิ่มฟีเจอร์ใหม่ ลบข้อจำกัด และปรับแต่งทุกอย่างให้เป็นแบบที่คุณต้องการ
+
+> BearAppTH is an Android app modification tool built and maintained by a single Thai developer.
+> Patch your favourite apps — add features, remove restrictions, and make them truly yours.
+
 &nbsp;
 
-## 🧩 This is BearAppTH
+## 🚀 สิ่งที่คุณทำได้
 
-BearAppTH is an Android app modification tool.
+- แพตช์และปรับแต่ง Android apps ได้อย่างอิสระ
+- เพิ่มฟีเจอร์ใหม่หรือลบข้อจำกัดที่ไม่ต้องการ
+- ปรับแต่ง UI และพฤติกรรมของแอปตามใจ
+- สร้างแพตช์ของคุณเองได้
 
-It allows you to change how apps work, look, and behave beyond their original design.
+&nbsp;
 
-Build new functionality, remove limitations, and tailor apps to your needs.
+## 👨‍💻 ผู้พัฒนา
 
-## 🚀 What you can do
+สวัสดีครับ! ผมเป็นนักพัฒนา Android ชาวไทยที่ชื่นชอบการ customize และ modding  
+**BearAppTH** เป็นโปรเจกต์ส่วนตัวที่สร้าง ดูแล และรักษาโดยผมเพียงคนเดียวครับ
 
-- Modify Android apps
-- Add or change features
-- Customize UI and behavior
-- Remove unwanted restrictions
+ถ้าโปรเจกต์นี้มีประโยชน์สำหรับคุณ ลองสนับสนุนได้นะครับ — ขอบคุณมากครับ! 🙏
 
-## 👥 Community
+&nbsp;
 
-BearAppTH is an independent project based on prior work from [ReVanced](https://github.com/ReVanced).
+## 👥 ชุมชน
 
-Issues, ideas, and contributions are always welcome.
+รายงาน bug, ไอเดียฟีเจอร์ใหม่ และการมีส่วนร่วมใดๆ ยินดีต้อนรับเสมอครับ
