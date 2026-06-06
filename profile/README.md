@@ -15,7 +15,7 @@
 
 <br/>
 
-### นักพัฒนาไทยเดี่ยว &nbsp;·&nbsp; Solo Thai Developer 🇹🇭
+**Android App Modification · นักพัฒนาไทยเดี่ยว · Solo Thai Developer 🇹🇭**
 
 <br/>
 
@@ -29,37 +29,91 @@
 
 </div>
 
-&nbsp;
+---
 
-## 🐻 เกี่ยวกับ BearAppTH
+## ภาพรวม / Overview
 
-**BearAppTH** คือเครื่องมือปรับแต่ง Android app พัฒนาและดูแลโดยนักพัฒนาไทยเพียงคนเดียว
+**BearAppTH** คือระบบนิเวศ (ecosystem) สำหรับการปรับแต่ง Android app แบบครบวงจร  
+พัฒนาและดูแลโดยนักพัฒนาไทยเพียงคนเดียว มุ่งเน้นให้ผู้ใช้งานได้รับประสบการณ์ที่ดีกว่าต้นฉบับ
 
-ปรับเปลี่ยนแอปที่คุณใช้งานทุกวัน — เพิ่มฟีเจอร์ใหม่ ลบข้อจำกัด และปรับแต่งทุกอย่างให้เป็นแบบที่คุณต้องการ
+> BearAppTH is a complete Android app modification ecosystem — built and maintained by a single Thai developer — designed to give users a better experience than the original apps.
 
-> BearAppTH is an Android app modification tool built and maintained by a single Thai developer.
-> Patch your favourite apps — add features, remove restrictions, and make them truly yours.
+---
 
-&nbsp;
+## โปรเจกต์ของเรา / Our Projects
 
-## 🚀 สิ่งที่คุณทำได้
+<br/>
 
-- แพตช์และปรับแต่ง Android apps ได้อย่างอิสระ
-- เพิ่มฟีเจอร์ใหม่หรือลบข้อจำกัดที่ไม่ต้องการ
-- ปรับแต่ง UI และพฤติกรรมของแอปตามใจ
-- สร้างแพตช์ของคุณเองได้
+### 🎬 YouTube & YouTube Music
 
-&nbsp;
+แอปพลิเคชัน YouTube และ YouTube Music ที่ถูกปรับแต่งมาอย่างพิถีพิถัน  
+ให้ประสบการณ์การรับชมและฟังเพลงที่เหนือกว่าต้นฉบับ ด้วยฟีเจอร์ที่ไม่มีในเวอร์ชันทางการ
 
-## 👨‍💻 ผู้พัฒนา
+**จุดเด่น:**
 
-สวัสดีครับ! ผมเป็นนักพัฒนา Android ชาวไทยที่ชื่นชอบการ customize และ modding  
-**BearAppTH** เป็นโปรเจกต์ส่วนตัวที่สร้าง ดูแล และรักษาโดยผมเพียงคนเดียวครับ
+- ปิดโฆษณาทุกรูปแบบ ทั้งวิดีโอ แบนเนอร์ และสปอนเซอร์ในเนื้อหา
+- เล่นวิดีโอและเพลงในพื้นหลัง (Background Playback) โดยไม่ต้องเปิดหน้าจอ
+- ดาวน์โหลดวิดีโอและเพลงเก็บไว้ในเครื่อง
+- ปิดการข้ามวิดีโออัตโนมัติและ ปรับแต่ง UI ได้ตามต้องการ
+- รองรับ SponsorBlock — ข้ามช่วงสปอนเซอร์ในวิดีโออัตโนมัติ
 
-ถ้าโปรเจกต์นี้มีประโยชน์สำหรับคุณ ลองสนับสนุนได้นะครับ — ขอบคุณมากครับ! 🙏
+> All features work seamlessly through **Bear MicroG** — our custom integration layer that enables full app functionality without requiring root access or Google Play Services.
 
-&nbsp;
+<br/>
 
-## 👥 ชุมชน
+### 🐻 Bear MicroG
 
-รายงาน bug, ไอเดียฟีเจอร์ใหม่ และการมีส่วนร่วมใดๆ ยินดีต้อนรับเสมอครับ
+ระบบเชื่อมต่อหลักของ BearAppTH ecosystem  
+Bear MicroG คือ open-source framework ที่ทำหน้าที่แทน Google Play Services  
+ช่วยให้แอปที่ผ่านการปรับแต่งทำงานได้อย่างสมบูรณ์ โดยไม่จำเป็นต้องเข้าถึง root หรือพึ่งพาบริการของ Google
+
+**หน้าที่หลัก:**
+
+- ทดแทน Google Play Services สำหรับแอปที่ปรับแต่งแล้ว
+- จัดการระบบล็อกอินและ authentication ให้ปลอดภัย
+- รองรับการอัปเดตอัตโนมัติผ่าน Bear Store
+- รองรับ Push Notifications และ Location Services
+- เบา เสถียร และใช้ทรัพยากรน้อยกว่า Google Play Services ต้นฉบับ
+
+<br/>
+
+### 🏪 Bear Store
+
+แหล่งรวมแอปทั้งหมดของ BearAppTH ecosystem ในที่เดียว  
+Bear Store คือ app store สำหรับดาวน์โหลดและอัปเดตแอปที่ผ่านการปรับแต่ง พร้อมระบบอัปเดตอัตโนมัติและการจัดการเวอร์ชัน
+
+**ฟีเจอร์:**
+
+- ดาวน์โหลด YouTube, YouTube Music และ Bear MicroG ได้ครบในที่เดียว
+- ระบบอัปเดตอัตโนมัติ — ไม่พลาดเวอร์ชันใหม่
+- ตรวจสอบความถูกต้องของไฟล์ก่อนติดตั้งทุกครั้ง
+- รองรับการติดตั้งแบบ non-root อย่างสมบูรณ์
+
+---
+
+## วิธีเริ่มต้น / Getting Started
+
+```
+1. ติดตั้ง Bear Store จาก bearappth.github.io
+2. ติดตั้ง Bear MicroG ผ่าน Bear Store
+3. ติดตั้ง YouTube หรือ YouTube Music ตามต้องการ
+4. ล็อกอินบัญชี Google ผ่าน Bear MicroG
+5. เปิดใช้งานได้ทันที — ไม่ต้องการ root
+```
+
+---
+
+## ผู้พัฒนา / Developer
+
+สวัสดีครับ ผมเป็นนักพัฒนา Android ชาวไทยที่หลงใหลในการ customization และ open-source  
+ทุกโปรเจกต์ใน BearAppTH ecosystem สร้าง ทดสอบ และดูแลโดยผมเพียงคนเดียวครับ
+
+หากโปรเจกต์นี้มีประโยชน์ต่อคุณ การสนับสนุนเล็กน้อยจะช่วยให้ผมพัฒนาต่อได้อย่างต่อเนื่องครับ 🙏
+
+---
+
+## ชุมชน / Community
+
+- พบ bug หรืออยากแนะนำฟีเจอร์ — เปิด Issue ได้เลยครับ
+- อยากมีส่วนร่วมพัฒนา — ยินดีต้อนรับ Pull Request ทุกชิ้น
+- มีคำถามหรือต้องการความช่วยเหลือ — ติดต่อผ่าน [bearappth.github.io](https://bearappth.github.io)
